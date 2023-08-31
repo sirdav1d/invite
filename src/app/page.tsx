@@ -28,7 +28,7 @@ export default function Home() {
 					initial='close'
 					animate='open'>
 					<Image
-						className='h-32 w-auto lg:h-40  '
+						className='h-40 w-auto  '
 						src={'/clarice.png'}
 						width={180}
 						height={200}
