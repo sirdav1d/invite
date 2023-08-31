@@ -9,17 +9,12 @@ import {
 	P3Animation,
 } from '@/animations';
 import { motion } from 'framer-motion';
+import Pergaminho from '@/components/pergaminho';
 
 export default function Home() {
 	return (
 		<main className='flex h-screen items-center justify-center bg-default p-0 m-0 lg:p-10 relative overflow-hidden '>
-			<Image
-				className='absolute m-0 lg:m-auto h-full w-auto p-0 max-w-[364px] lg:max-w-full lg:max-h-full max-h-[648px] '
-				src={'/bg-invite.png'}
-				width={660}
-				height={800}
-				alt='Imagem de um pergaminho'
-			/>
+			<Pergaminho />
 			<div className='flex flex-col max-h-[480px] max-w-[240px] lg:max-w-[420px] z-50 items-center justify-start gap-3 h-full pt-4   '>
 				<motion.h2
 					variants={TitleAnimation}
