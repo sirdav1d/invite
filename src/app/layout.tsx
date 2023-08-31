@@ -18,6 +18,11 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang='pt-BR'>
+			<link
+				rel='shortcut icon'
+				href='/favicon.png'
+				type='image/x-icon'
+			/>
 			<body className={`${bitter.className} ${ita.className}`}>{children}</body>
 		</html>
 	);
