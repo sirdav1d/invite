@@ -15,7 +15,7 @@ export default function Home() {
 	return (
 		<main className='flex h-screen items-center justify-center bg-default p-0 m-0 lg:p-10 relative overflow-hidden '>
 			<Pergaminho />
-			<div className='flex flex-col max-h-[480px] max-w-[240px] lg:max-w-[420px] z-50 items-center justify-start gap-3 h-full pt-4   '>
+			<div className='flex flex-col max-h-[480px] max-w-[256px] lg:max-w-[420px] z-50 items-center justify-start gap-2 h-full pt-4   '>
 				<motion.h2
 					variants={TitleAnimation}
 					initial='close'
@@ -41,9 +41,8 @@ export default function Home() {
 					animate='open'
 					className='text-bitter text-sm lg:text-base  '>
 					Sua alteza Real, a princesa Clarice,
-					<br /> Convida a todos os príncipes e princesas, de todos os reinos ao
-					redor, para a comemoração do seu <strong>1º aniversário!</strong>{' '}
-					<br />
+					<br /> convida todos os príncipes e princesas, de todos os reinos ao
+					redor, para a comemoração do seu <strong>primeiro aniversário!</strong>{' '}
 					Será uma honra tê-los em nosso castelo.
 				</motion.p>
 				<div className='self-start text-sm lg:text-base  '>
@@ -68,7 +67,7 @@ export default function Home() {
 				</div>
 			</div>
 			<Image
-				className='absolute bottom-[8%] lg:bottom-[17%] right-[37%] scale-75 lg:scale-100 animate-pulse '
+				className='absolute bottom-[8%] lg:bottom-[17%] right-[37%] scale-75 lg:scale-100'
 				src={'/brancaDeNeve.png'}
 				width={100}
 				height={140}

@@ -12,15 +12,15 @@ export const TitleAnimation: Variants = {
 		x: 0,
 		y: 0,
 		transition: {
-			duration: 1.5,
+			duration: 3,
 			type: 'tween',
 		},
 	},
 	close: {
 		opacity: 0,
-		scale: 2,
+		scale: 3,
 		x: '-10%',
-		y: 100,
+		y: 240,
 	},
 };
 
@@ -30,9 +30,9 @@ export const ImageAnimation: Variants = {
 		scale: 1,
 		x: 0,
 		transition: {
-			duration: 2,
+			duration: 1.3,
 			type: 'tween',
-			delay: 1,
+			delay: 2,
 		},
 	},
 	close: {
@@ -50,7 +50,7 @@ export const TextAnimation: Variants = {
 		transition: {
 			duration: 1,
 			type: 'tween',
-			delay: 2,
+			delay: 3.8,
 		},
 	},
 	close: {
@@ -67,7 +67,7 @@ export const P1Animation: Variants = {
 		transition: {
 			duration: 1.5,
 			type: 'tween',
-			delay: 2.6,
+			delay: 4.6,
 		},
 	},
 	close: {
@@ -84,7 +84,7 @@ export const P2Animation: Variants = {
 		transition: {
 			duration: 1.5,
 			type: 'tween',
-			delay: 2.8,
+			delay: 4.8,
 		},
 	},
 	close: {
@@ -101,7 +101,7 @@ export const P3Animation: Variants = {
 		transition: {
 			duration: 1.5,
 			type: 'tween',
-			delay: 3,
+			delay: 5,
 		},
 	},
 	close: {
